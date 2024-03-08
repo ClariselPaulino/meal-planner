@@ -1,0 +1,7 @@
+name: meal-planner
+on: [push]
+jobs:
+  initialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
